@@ -1,6 +1,9 @@
 
 # Agreement
 
+**Team Members:**
+- Jesus Ordunez
+  
 **Key Strengths:**
 - **Proficient in CSS:** Use CSS skills to build a user-friendly and interactive frontend.
 - **Good with making a wireframe:** Utilize wireframe skills for effective project planning and layout design.
@@ -84,5 +87,3 @@
 ## Presentation Deck
 [Google Slides](https://docs.google.com/presentation/d/1Gv1ds7dD_xFJSk9nVGk0KZT_5Hb0P_jwA7RphT6xWPA/edit?usp=sharing)
 
-**Team Members:**
-- Jesus Ordunez
