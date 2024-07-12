@@ -1,4 +1,4 @@
-# Project 201 Wrestler's Stats 
+# Project 201
 
 ## Wrestler's Stats 
 
