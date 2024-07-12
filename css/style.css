@@ -1,0 +1,132 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background-color: #333; /* Make the header background transparent */
+    color: hsl(0, 0%, 100%);
+    font-size: 50px;
+    padding: 1rem 0;
+    text-align: center;
+    position: relative;
+    z-index: 2; /* Ensure the header content is above the hero image */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-logo img {
+    height: 200px; /* Adjust the height as needed */
+    margin-left: 20px; /* Adjust the margin as needed */
+}
+
+/* Navigation Styles */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 5rem;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content Styles */
+main {
+    background: url('../img/WWShr.png') no-repeat center center/cover;
+    padding: 2rem;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    min-height: 100vh; /* Ensure the main section takes full height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/* Add Wrestler Form Styles */
+#addWrestlerForm {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    padding: 2rem;
+    font-size: 2rem;
+    
+}    
+
+
+/* Wrestler Cards Styles */
+#wrestlers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 1rem; /* Adjust the gap between the cards as needed */
+}
+
+.wrestler-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 400px; /* Adjust the width of the cards */
+    height: auto; /* Adjust the height of the cards */
+    padding: 1rem;
+    text-align: center;
+}
+
+.wrestler-card h2 {
+    color: #222;
+    font-size: 3rem;
+    margin: 0.5rem 0;
+}
+
+.wrestler-card p {
+    color: #666;
+    font-size: 2rem;
+    margin: 0.5rem 0;
+}
+
+
+/* Chart Styles */
+canvas {
+    background-color: #ffffff;
+    margin: 2rem auto;
+    display: block;
+    max-width: 100%; /* Ensure the chart fits within the container */
+    height: 1000px; /* Adjust height as needed */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: relative;
+    z-index: 2;
+    margin-top: 0; /* Remove any margin */
+}
+
+footer p {
+    margin: 0;
+    font-size: 2rem;
+}
