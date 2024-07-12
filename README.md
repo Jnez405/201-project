@@ -8,7 +8,7 @@ This project is a web app showcasing pro wrestlers' stats like wins, losses, and
 
 ### Links and Resources
 
-* [submission PR](http://xyz.com)
+* [submission PR](X)
 
 
 ### Lighthouse Accessibility Report Score
